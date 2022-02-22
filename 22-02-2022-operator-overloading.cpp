@@ -24,7 +24,7 @@ class Complex{
         }
 
         // friend function for operator overloading
-        friend Complex operator+(Complex c1, Complex c2);
+        friend Complex operator+(Complex c1, Complex c2); //friend function is not used for division
 };
 
 Complex operator+(Complex c1, Complex c2){
